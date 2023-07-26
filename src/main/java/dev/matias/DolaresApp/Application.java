@@ -8,7 +8,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-//import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 
 import java.time.LocalDate;
 
@@ -20,7 +20,7 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 
 	}
-	/* 
+	
 	@Bean
 	CommandLineRunner commandLineRunner(DolarRepository dolarRepository, UserRepository userRepository, PasswordEncoder passwordEncoder){
 		return args -> {
@@ -36,6 +36,6 @@ public class Application {
 			System.out.println(dolarRepository.findById(LocalDate.now()));
 		};
 	}
-	*/
+	
 
 }

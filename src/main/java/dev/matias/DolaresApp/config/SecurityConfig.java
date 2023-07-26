@@ -1,4 +1,4 @@
-/*package dev.matias.DolaresApp.config;
+package dev.matias.DolaresApp.config;
 
 import dev.matias.DolaresApp.service.JpaUserDetailService;
 import org.springframework.context.annotation.Bean;
@@ -12,9 +12,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
-//@Configuration
-//@EnableWebSecurity
-//@EnableMethodSecurity
+@Configuration
+@EnableWebSecurity
+@EnableMethodSecurity
 public class SecurityConfig {
 
     private final JpaUserDetailService userDetailService;
@@ -48,4 +48,3 @@ public class SecurityConfig {
     }
 
 }
-*/

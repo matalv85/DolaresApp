@@ -1,4 +1,4 @@
-/*package dev.matias.DolaresApp.service;
+package dev.matias.DolaresApp.service;
 
 import dev.matias.DolaresApp.model.SecurityUser;
 import dev.matias.DolaresApp.repository.UserRepository;
@@ -20,6 +20,6 @@ public class JpaUserDetailService implements UserDetailsService {
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         return  userRepository.findByUsername(username)
                 .map(SecurityUser::new).orElseThrow(() -> new UsernameNotFoundException("Username not found " + username));
+                
     }
 }
-*/

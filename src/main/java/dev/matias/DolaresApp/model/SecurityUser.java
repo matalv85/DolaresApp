@@ -1,4 +1,4 @@
-/*package dev.matias.DolaresApp.model;
+package dev.matias.DolaresApp.model;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -6,6 +6,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.Arrays;
 import java.util.Collection;
+
 
 public class SecurityUser implements UserDetails {
 
@@ -53,4 +54,3 @@ public class SecurityUser implements UserDetails {
         return true;
     }
 }
-*/
