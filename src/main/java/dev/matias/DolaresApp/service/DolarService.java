@@ -11,8 +11,6 @@ import java.net.URL;
 @Component
 public class DolarService {
 
-
-    //public Map<String, Double> getCompraVenta(){
     public Dolar getCompraVentaOficial() {
 
         Dolar dolar = null;
